@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peach-2",
+    "texture": "3dd278cf-db84-4ccb-b903-097959ecdf60",
+    "atlas": "",
+    "rect": [
+      14,
+      0,
+      48,
+      53
+    ],
+    "offset": [
+      7,
+      3
+    ],
+    "originalSize": [
+      62,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

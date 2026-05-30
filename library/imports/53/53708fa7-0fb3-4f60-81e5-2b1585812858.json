@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sandia-2",
+    "texture": "af0a3040-98af-474f-a1b6-fd50a068dd1f",
+    "atlas": "",
+    "rect": [
+      32,
+      1,
+      66,
+      84
+    ],
+    "offset": [
+      16,
+      -0.5
+    ],
+    "originalSize": [
+      98,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

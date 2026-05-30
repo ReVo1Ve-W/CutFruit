@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "basaha-2",
+    "texture": "3f84b3fc-b3eb-4d21-a7b9-c3065bbc0a51",
+    "atlas": "",
+    "rect": [
+      5,
+      8,
+      63,
+      64
+    ],
+    "offset": [
+      2.5,
+      -4
+    ],
+    "originalSize": [
+      68,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
