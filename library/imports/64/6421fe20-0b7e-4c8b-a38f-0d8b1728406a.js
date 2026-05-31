@@ -9,13 +9,12 @@ cc.Class({
   properties: {
     buttonClip: cc.AudioClip
   },
-  // LIFE-CYCLE CALLBACKS:
-  // onLoad () {},
-  start: function start() {},
   returnMenu: function returnMenu() {
-    cc.audioEngine.play(this.buttonClip, false, 1);
+    if (this.buttonClip) {
+      cc.audioEngine.play(this.buttonClip, false, 1);
+    }
     cc.director.loadScene("Menu");
-  } // update (dt) {},
+  }
 });
 
 cc._RF.pop();

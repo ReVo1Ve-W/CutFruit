@@ -4,6 +4,7 @@ cc._RF.push(module, 'c8b30gJzGlLoJWZBCOCpXKG', 'FruitJuice');
 
 "use strict";
 
+var Constants = require('Constants');
 cc.Class({
   "extends": cc.Component,
   properties: {
@@ -17,11 +18,12 @@ cc.Class({
     this.node.angle = rotation;
     this.juiceSprite.color = color;
     this.juiceSprite.opacity = opacity;
-    //渐隐显示动画，并将其对象回收。
-    cc.tween(this.juiceSprite).to(1.5, {
+    cc.tween(this.juiceSprite).to(Constants.TIMING.JUICE_FADE_DURATION, {
       opacity: 0
     }).call(function () {
-      _this.parentObj.backNode(_this.node, _this.colorType);
+      if (_this.parentObj && _this.node && _this.node.isValid) {
+        _this.parentObj.backNode(_this.node);
+      }
     }).start();
   }
 });

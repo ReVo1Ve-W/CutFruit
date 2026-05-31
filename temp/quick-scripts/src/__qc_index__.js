@@ -1,4 +1,5 @@
 
+require('./assets/Scripts/Constants');
 require('./assets/Scripts/Fruit');
 require('./assets/Scripts/FruitGroup');
 require('./assets/Scripts/FruitJuice');
